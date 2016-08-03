@@ -87,7 +87,7 @@ class ParticlesViewController: UIViewController {
     Tween(from: dot.position,
           to: position,
           time: 1,
-          ease: Quad.easeInOut,
+          ease: Ease.Quad.easeInOut,
           key: "\(unsafeAddressOf(dot))"
     ) {
       dot.position = $0

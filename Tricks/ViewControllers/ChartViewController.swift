@@ -30,7 +30,7 @@ class ChartViewController: UIViewController {
       timeline.add(Tween(from: 0,
                          to: 1,
                          time: self.tweenDuration,
-                         ease: Quad.easeOut) {
+                         ease: Ease.Quad.easeOut) {
           element.strokeEnd = CGFloat($0)
         }, shift: self.shiftForIndex(index))
     }

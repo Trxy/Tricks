@@ -31,7 +31,7 @@ class BasicViewController: UIViewController {
             to: location,
             time: 3,
             delay: Double(i) * 0.01,
-            ease: Elastic.easeOut,
+            ease: Ease.Elastic.easeOut,
             key: "circle\(i).move") {
               circle.position = $0
         }.start()
