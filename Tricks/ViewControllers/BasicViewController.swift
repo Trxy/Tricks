@@ -6,7 +6,7 @@ class BasicViewController: UIViewController {
   private lazy var circles: Array<CALayer> = {
     (1...7).map {
       CircleLayer(diameter: CGFloat($0) * 10,
-                  strokeColor: UIColor.trxGreen.CGColor)
+                  strokeColor: UIColor.trxGreen.cgColor)
     }
   }()
   
@@ -24,7 +24,7 @@ class BasicViewController: UIViewController {
   }
   
   @IBAction private func handleTap(recognizer: UIGestureRecognizer) {
-    let location = recognizer.locationInView(self.view)
+    let location = recognizer.location(in: self.view)
     for i in 0..<circles.count {
       let circle = circles[i]
       Tween(from: circle.position,

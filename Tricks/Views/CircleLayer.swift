@@ -7,7 +7,7 @@ class CircleLayer: CAShapeLayer {
        strokeColor: CGColor? = nil,
        lineWidth: CGFloat = 2) {
     super.init()
-    self.path = UIBezierPath(ovalInRect: square(diameter)).CGPath
+    self.path = UIBezierPath(ovalIn: square(width: diameter)).cgPath
     self.fillColor = fillColor
     self.strokeColor = strokeColor
     self.lineWidth = lineWidth
@@ -29,10 +29,6 @@ class CircleLayer: CAShapeLayer {
   
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
-  }
-  
-  override init(layer: AnyObject) {
-    super.init(layer: layer)
   }
   
 }

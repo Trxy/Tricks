@@ -2,10 +2,10 @@ import Foundation
 
 extension Array {
   
-  func randomElement() -> Generator.Element? {
+  func randomElement() -> Element? {
     guard count > 0 else {
       return nil
     }
-    return self[Int.random(0, to: count - 1)]
+    return self[Int.random(from: 0, to: count - 1)]
   }
 }

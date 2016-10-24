@@ -8,8 +8,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       window?.tintColor = UIColor.trxRed
     }
   }
-
-  func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+  
+  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
     return true
   }
 

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "18F433673A38122453A337D9845DC88DE5F92272",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "18F433673A38122453A337D9845DC88DE5F92272" : 9223372036854775807,
+    "5034C7DBF621FE8DD7D6102325CEAE3663951EEB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0579AF11-73F0-401D-8AE1-480FE0F6253E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "18F433673A38122453A337D9845DC88DE5F92272" : "Tricks\/",
+    "5034C7DBF621FE8DD7D6102325CEAE3663951EEB" : "trx\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tricks",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tricks.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Trxy\/Tricks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18F433673A38122453A337D9845DC88DE5F92272"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Trxy\/TRX.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5034C7DBF621FE8DD7D6102325CEAE3663951EEB"
+    }
+  ]
+}
