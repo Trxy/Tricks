@@ -24,14 +24,14 @@ class ParticlesViewController: UIViewController {
         let cgi = CGFloat(i)
         let cgCount = CGFloat(count)
         let x = cgi * width / cgCount + (frame.size.width - width) / 2
-        let y = sin((cgi / cgCount) * CGFloat(M_PI) * 5 ) * radius + frame.size.height / 2
+        let y = sin((cgi / cgCount) * .pi * 5 ) * radius + frame.size.height / 2
         return CGPoint(x: x, y: y)
       }
     }
     
     func circle(radius: CGFloat = 50) -> [CGPoint] {
       return (0..<count).map { i in
-        let angle = CGFloat(i) / CGFloat(count) * CGFloat(M_PI * 2)
+        let angle = CGFloat(i) / CGFloat(count) * .pi * 2
         return CGPoint(x: center.x + cos(angle) * radius,
                        y: center.y + sin(angle) * radius)
       }
